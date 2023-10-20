@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import MenuBarra from './componentes/menu-barra/MenuBarra';
 import Menu from './paginas/menu/Menu';
 import PaginaPrincipal from './paginas/pagina-principal/PaginaPrincipal';
-
 function App() {
   const [paginaActual, setPaginaActual] = useState('PaginaPrincipal');
 
