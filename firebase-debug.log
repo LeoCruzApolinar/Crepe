@@ -64,3 +64,18 @@ Before we get started, keep in mind:
 [info] 
 [info] +  Success! Logged into GitHub as LeoCruzApolinar 
 [info] 
+[debug] [2023-10-20T06:24:51.589Z] >>> [apiv2][query] GET https://api.github.com/repos/LeoCruzApolinar/Crepe/actions/secrets/public-key type=owner
+[debug] [2023-10-20T06:24:51.921Z] <<< [apiv2][status] GET https://api.github.com/repos/LeoCruzApolinar/Crepe/actions/secrets/public-key 401
+[debug] [2023-10-20T06:24:51.921Z] <<< [apiv2][body] GET https://api.github.com/repos/LeoCruzApolinar/Crepe/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-20T06:25:30.787Z] >>> [apiv2][query] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key type=owner
+[debug] [2023-10-20T06:25:31.195Z] <<< [apiv2][status] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key 401
+[debug] [2023-10-20T06:25:31.196Z] <<< [apiv2][body] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-20T06:25:31.545Z] >>> [apiv2][query] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key type=owner
+[debug] [2023-10-20T06:25:31.663Z] <<< [apiv2][status] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key 401
+[debug] [2023-10-20T06:25:31.663Z] <<< [apiv2][body] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-20T06:25:31.799Z] >>> [apiv2][query] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key type=owner
+[debug] [2023-10-20T06:25:31.890Z] <<< [apiv2][status] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key 401
+[debug] [2023-10-20T06:25:31.890Z] <<< [apiv2][body] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-20T06:25:31.983Z] >>> [apiv2][query] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key type=owner
+[debug] [2023-10-20T06:25:32.063Z] <<< [apiv2][status] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key 401
+[debug] [2023-10-20T06:25:32.063Z] <<< [apiv2][body] GET https://api.github.com/repos/LeoCruzApolinar/Crepec/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
