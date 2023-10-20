@@ -1,0 +1,33 @@
+.contenedor
+{
+    background-color: #485A90;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    border-radius: 10px;
+
+}
+.titulo
+{
+    color: #fff;
+    font-size:30px;
+
+}
+.logo
+{
+    width: 30px;
+}
+.icono
+{
+    width: 30px;
+}
+.rotated {
+    transform: rotate(-90deg);
+    transition: transform 0.3s ease; /* Agrega una transición para suavizar la rotación */
+  }
+  
+
+
+  

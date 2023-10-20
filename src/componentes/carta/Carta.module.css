@@ -1,0 +1,44 @@
+.contenedor {
+    display: grid;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    grid-template-columns: 25% 50% 25%;
+    justify-items: center;
+}
+
+
+.Imagen
+{
+    height: 45px;
+    width: 45px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.Subcontenedor
+{
+    width: 120px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+.SelectoerN
+{
+    height: 30px;
+    width: 40px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.TituloN
+{
+    font-size: 18px;;
+}
+.TituloP
+{
+    font-size: 15px;;
+}
+.Checkbox
+{
+    height: 30px;
+    width: 30px;
+}

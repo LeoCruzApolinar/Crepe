@@ -1,0 +1,18 @@
+.contenedor
+{
+    background-color: #485A90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    z-index: 10;
+    position: relative;
+    top: -10px;
+}
+.botones
+{
+    color: #fff;
+    font-size: 20px;
+}

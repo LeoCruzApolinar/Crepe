@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import MenuBarra from './componentes/menu-barra/MenuBarra';
+import Menu from './paginas/menu/Menu';
+import PaginaPrincipal from './paginas/pagina-principal/PaginaPrincipal';
 
 function App() {
+  const [paginaActual, setPaginaActual] = useState('PaginaPrincipal');
+
+  const cambiarPagina = (pagina) => {
+    if(pagina === "Pagina principal")
+    {
+      setPaginaActual("PaginaPrincipal");
+    }
+    else if(pagina === "Menú")
+    {
+      setPaginaActual("Menu");
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MenuBarra onReturn={cambiarPagina}/>
+      {paginaActual === 'PaginaPrincipal' ? <PaginaPrincipal /> : <Menu />}
     </div>
   );
 }

@@ -1,0 +1,27 @@
+/* CartaLista.module.css */
+.contenedor {
+    background-color: #ffffff;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+ /* El contenedor ocupa toda la altura disponible */
+  }
+  
+  .titulo {
+    color: #1A2641;
+  }
+  
+  .subcontenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    height: 100%;
+    overflow-y: auto;
+    width: 100%;
+    flex-direction: column;/* El subcontenedor crecerá para llenar el espacio restante */
+  }
+  
